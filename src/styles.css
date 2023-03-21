@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+.title {
+  font-family: "Marcellus", serif;
+}
+.para {
+  font-family: "Joan", serif;
+}
+h1 {
+  font-family: "Marcellus", serif;
+  text-align: center;
+}
+.cancel {
+  background-color: aliceblue;
+}
+
+.bounce {
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
